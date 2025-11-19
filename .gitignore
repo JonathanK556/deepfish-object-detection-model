@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dataset files (too large for GitHub)
+Deepfish/
+yolo_dataset/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.txt
+!README.md
+!requirements.txt
+
+# Model weights and training outputs (very large)
+runs/
+*.pt
+*.pth
+*.h5
+*.pkl
+*.ckpt
+*.weights
+*.onnx
+
+# Cache files
+*.cache
+.cache/
+__pycache__/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Keep config files
+!deepfish_config.yaml
+!requirements.txt
+!README.md
+

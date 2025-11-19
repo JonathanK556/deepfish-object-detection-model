@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Jupyter notebooks
+*.ipynb linguist-detectable=true
+
