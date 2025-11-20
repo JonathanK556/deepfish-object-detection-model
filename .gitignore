@@ -13,6 +13,17 @@ build/
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
+# Video inference notebook and video files (not for repo)
+video_inference.ipynb
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+video_results/
+TestFootage.mp4
+testfootage.mp4
+
 # Virtual Environments
 venv/
 env/

@@ -1,6 +1,6 @@
 names:
 - Fish
 nc: 1
-path: /Users/jonathan/Desktop/DataScience/ObjectDetection/yolo_dataset
+path: yolo_dataset
 train: train
 val: valid
